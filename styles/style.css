@@ -255,3 +255,96 @@
     border-radius: 10px;
     margin: 130px 240px 200px 240px;
 }
+@media screen and (max-width: 576px)
+{
+    /* -------------------------
+        common-property 
+   -------------------------*/
+    .common-margin{
+        margin: 0px 10px;
+    }    
+    .head{
+        background: none ;
+        width:auto;
+        height: auto;
+    }
+    .common-button{
+        margin:0px 0px 30px 0px;
+    }
+    /* ----------------------------
+        Architects Section mobile 
+   --------------------------------*/
+    .architects-brand-info{
+        height: auto;
+        width: auto;
+        padding: 20px;
+    }
+    .architects-img{
+        margin-bottom: 200px;
+        margin-top:0px;
+        height: auto;
+        width: 100%;
+    }
+    /* ----------------------------
+     feature section motile style 
+   -------------------------------*/
+
+    .features-container{
+        margin-top: none;
+        flex-direction: column;
+       
+        text-align: center;
+        padding: 20px;
+    }
+    .features-img{
+        grid-template-columns: 1fr ;
+        grid-gap: 10px;
+    }
+    .team-img{
+        width:100vh;
+    }
+    /* -----------------------------
+    love & enjoy  mobile section style 
+   ----------------------------*/
+   .love-enjoy-section{
+      flex-direction: column;
+      margin-top: 200px;
+   }
+   .love-enjoy-info{
+        height: auto;
+        width: auto;
+   }
+   
+   .love-enjoy-feature{
+    height: auto;
+    width: auto;
+    align-items: center;
+   }
+   /* -----------------------------
+        Some Facts mobile style 
+   ----------------------------*/
+   .Fact-section{
+     margin-top: 200px;
+     text-align: center;
+   }
+   .some-fact-buttons{
+     flex-direction: column;
+     margin: 10px 30px;
+   }
+   /* -----------------------------
+      Sponsors section style 
+   ----------------------------*/
+   .sponsors-section{
+    margin-top: 200px;
+   }
+   .sponsors-section p{
+        padding: none;
+        
+   }
+   .sponsore-ima{
+     flex-direction: column;
+   }
+   .copyright-section{
+     margin: 10px;
+   }
+}
